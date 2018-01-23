@@ -1,0 +1,24 @@
+body {
+    background-color: seagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 1.25em;
+}
+
+.board {
+    height: 100vh;
+}
+
+.column {
+    display: inline-block;
+    width: 270px;
+    height: 100%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    background-color: indianred;
+    max-height: 100%;
+}
+
